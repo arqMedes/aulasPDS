@@ -1,12 +1,12 @@
 ### EXERCÍCIO E3.11
 Determine e trace a resposta de entrada nula para os sistemas descritos pelas seguintes equações:
 
-![](/1-Sinais_Sistemas_Tempo_Discreto/1-Figuras/Exercicio3_11.png)
+![](./1-Figuras/Exercicio3_11.png)
 
 ### EXERCÍCIO E3.12
 
 
-![](/1-Sinais_Sistemas_Tempo_Discreto/1-Figuras/Exercicio3_12.png)
+![](./1-Figuras/Exercicio3_12.png)
 
 ## RESPOSTA $h[n]$ AO IMPULSO UNITÁRIO
 
@@ -35,12 +35,10 @@ y[n] - 0,6y[n-1] - 0,16y[n-2] = 5x[n]
 $$
 
 **Solução**
-Reescrevendo a equação na forma de avanço ([Equação 1](#eq1)) :
+Reescrevendo a equação na forma de avanço (Equação 1) :
 
-<a id="eq1"></a>
 $$
 y[n+2] - 0,6y[n+1] - 0,16y[n] = 5x[n+2] 
-\tag{1}
 $$
 
 Define-se **Resposta ao Impulso** $y[n] = h[n]$  quando $x[n]=\delta[n]$
@@ -56,7 +54,7 @@ Como, $A_0=\frac{b_N}{a_N}=0$, então $h[n]=A_0\delta[n] + y_c[n]u[n]$.
 
 Portanto, $h[n]$ concinde com a solução característica $y_c[n]$ (homogênea) da equação [Equação 1](#eq1). 
 
-![](/1-Sinais_Sistemas_Tempo_Discreto/1-Figuras/Exemplo3_12.jpeg)
+![](./1-Figuras/Exemplo3_12.jpeg)
 
 
 EXERCÍCIO E3.14
