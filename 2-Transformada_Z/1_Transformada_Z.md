@@ -76,9 +76,10 @@ Nota: É por isso que a função de transferência de um sistema é $H(z) = \fra
 
 #### Multiplicação por Exponencial (Escalonamento no domínio Z) 
 Multiplicar o sinal por uma base exponencial altera a escala da variável $z$. 
-$\mathcal{Z}\{a^{n}x[n]\}=X\left$frac{z}{a}\right)$
 
-### Exemplo Prático com Propriedades
+$\mathcal{Z}\{a^{n}x[n]\}=X\left( \frac{z}{a}\right)$
+
+### Exemplo Prático com Propriedade
 Imagine que necessite calcular a transformada Z do sinal 
 $y[n] = 2\delta[n] + 3 u[n-1]$. 
 
@@ -89,7 +90,7 @@ Sabe-se do Exemplo 1 que $\mathcal{Z}\{\delta[n]\} = 1$.
 
 Para o segundo termo, utiliza-se a propriedade do Deslocamento no Tempo sobre o degrau unitário (Exemplo 2):
 
-$\mathcal{Z}\{u[n-1]\} = z^{-1} \cdot \mathcal{Z}\{u[n]\} = z^{-1} \left$frac{z}{z-1}\right) = \frac{1}{z-1}$
+$\mathcal{Z}\{u[n-1]\} = z^{-1} \cdot \mathcal{Z}\{u[n]\} = z^{-1} \left(\frac{z}{z-1}\right) = \frac{1}{z-1}$
 
 Juntando tudo: 
 $Y(z)=2+\frac{3}{z-1}=\frac{2(z-1)+3}{z-1}=\frac{2z+1}{z-1}$
